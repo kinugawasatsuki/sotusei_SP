@@ -55,31 +55,56 @@ $mov-color: #F5CE28;
                     text-align: center;
                     background-color: #F6F2EB;
 
-                }
+                    
+                    // クリック時
+                    &.btn-on.all {
+                        background-color: $main-color;
+                        color: #fff;
+                    }
 
-                .all:hover {
-                    background-color: $main-color;
-                    color: #fff;
-                }
+                    &.btn-on.web {
+                        background-color: $web-color;
+                        color: #fff;
+                    }
 
-                .web:hover {
-                    background-color: $web-color;
-                    color: #fff;
-                }
+                    &.btn-on.gra {
+                        background-color: $gra-color;
+                        color: #fff;
+                    }
 
-                .gra:hover {
-                    background-color: $gra-color;
-                    color: #fff;
-                }
+                    &.btn-on.mov {
+                        background-color: $mov-color;
+                    }
 
-                .mov:hover {
-                    background-color: $mov-color;
-                }
+                    &.btn-on.teacher {
+                        background-color: #fff;
+                    }
 
-                .teacher:hover {
-                    background-color: #fff;
-                }
 
+                    // ホバー時
+                    .all:hover {
+                        background-color: $main-color;
+                        color: #fff;
+                    }
+
+                    .web:hover {
+                        background-color: $web-color;
+                        color: #fff;
+                    }
+
+                    .gra:hover {
+                        background-color: $gra-color;
+                        color: #fff;
+                    }
+
+                    .mov:hover {
+                        background-color: $mov-color;
+                    }
+
+                    .teacher:hover {
+                        background-color: #fff;
+                    }
+                }
 
             }
 
