@@ -1,0 +1,135 @@
+html {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 10px;
+}
+
+
+$main-color: #211816;
+$web-color: #3053F0;
+$gra-color: #D00C3E;
+$mov-color: #F5CE28;
+
+
+.all-wrapper {
+    width: 100vw;
+    height: auto;
+    background-color: #F6F2EB;
+    // overflow: hidden;
+
+    h1 {
+        width: 100vw;
+        padding: 20px 0;
+        text-align: center;
+
+        color: #fff;
+        font-size: 2rem;
+        background-color: $main-color;
+    }
+
+    .main-block-wrapper {
+        width: 100%;
+        padding: 0 5vw;
+
+        .main-block {
+            width: 100%;
+
+
+            .filter-btn-block {
+                width: 100%;
+
+                margin: 20px 0;
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+
+                .filter-btn {
+                    width: calc((100% - 20px) / 5);
+                    padding: 4px 0;
+                    border: $main-color 3px solid;
+                    border-radius: 40px;
+
+                    font-size: 1.6rem;
+                    text-align: center;
+                    background-color: #F6F2EB;
+
+                }
+
+                .all:hover {
+                    background-color: $main-color;
+                    color: #fff;
+                }
+
+                .web:hover {
+                    background-color: $web-color;
+                    color: #fff;
+                }
+
+                .gra:hover {
+                    background-color: $gra-color;
+                    color: #fff;
+                }
+
+                .mov:hover {
+                    background-color: $mov-color;
+                }
+
+                .teacher:hover {
+                    background-color: #fff;
+                }
+
+
+            }
+
+            .chara-block-wrapper {
+                width: 100%;
+
+                .chara-block {
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    row-gap: 4vw;
+
+                    li {
+                        width: 43vw;
+                        height: 43vw;
+                        background-color: #fff;
+                        border: $main-color 4px solid;
+                        border-radius: 10px;
+
+                        a {
+                            width: 100%;
+                            height: 100%;
+
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+
+                            img {
+                                width: auto;
+                                height: 40vw;
+                                object-fit: cover;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    footer {
+        width: 100vw;
+        margin-top: 40px;
+        padding: 10px 0;
+        text-align: center;
+
+        color: #fff;
+        background-color: $main-color;
+    }
+}
