@@ -16,9 +16,9 @@ html {
 
 .all-wrapper {
     width: 100vw;
-    height: auto;
+    height: 100vh;
     background-color: #F6F2EB;
-    // overflow: hidden;
+    overflow: scroll;
 
     h1 {
         width: 100vw;
@@ -112,6 +112,7 @@ html {
 
             .chara-block-wrapper {
                 width: 100%;
+                margin-bottom: 60px;
 
                 .chara-block {
                     width: 100%;
@@ -147,7 +148,7 @@ html {
         }
     }
 
-    &.chara {
+    &.chara-wrapper {
 
         .main-block {
             display: flex;
@@ -228,6 +229,21 @@ html {
                     font-size: 1.4rem;
                     text-align: center;
                     background-color: #F6F2EB;
+
+                    &.web {
+                        background-color: $web-color;
+                        color: #fff;
+                    }
+
+                    &.gra {
+                        background-color: $gra-color;
+                        color: #fff;
+                    }
+
+                    &.mov {
+                        background-color: $mov-color;
+
+                    }
                 }
             }
 
@@ -242,16 +258,35 @@ html {
                     dd {
                         padding: 10px;
                         font-size: 1.4rem;
+                        line-height: 140%;
                     }
 
                     dt {
                         background-color: $main-color;
                         color: #fff;
                         font-weight: lighter;
+
+                        &.corner-top {
+                            border-radius: 6px 6px 0 0;
+                        }
                     }
 
                     dd {
                         background-color: #fff;
+
+                        &.music-a {
+                            iframe {
+                                width: 100%;
+                                height: auto;
+                                aspect-ratio: 16 /9;
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                            }
+                        }
+
+                        &.corner-bottom {
+                            border-radius: 0 0 6px 6px;
+                        }
                     }
                 }
             }
@@ -264,6 +299,7 @@ html {
                 border-radius: 40px;
 
                 margin-top: 40px;
+                margin-bottom: 60px;
 
                 font-size: 1.4rem;
                 transition: 0.4s;
@@ -280,8 +316,9 @@ html {
 
 
     footer {
+        position: fixed;
+        bottom: 0;
         width: 100vw;
-        margin-top: 40px;
         padding: 10px 0;
         text-align: center;
 
