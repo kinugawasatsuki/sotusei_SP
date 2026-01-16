@@ -220,6 +220,10 @@ html {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.all-wrapper.chara-wrapper .main-block .detail-block dl dd.music-a .a-url {
+  text-decoration: underline;
+  color: #3053F0;
+}
 .all-wrapper.chara-wrapper .main-block .detail-block dl dd.corner-bottom {
   border-radius: 0 0 6px 6px;
 }
