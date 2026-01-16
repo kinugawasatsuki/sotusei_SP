@@ -187,6 +187,9 @@ html {
 .all-wrapper.chara-wrapper .main-block .person-block .major.mov {
   background-color: #F5CE28;
 }
+.all-wrapper.chara-wrapper .main-block .person-block .major.teacher {
+  background-color: #fff;
+}
 .all-wrapper.chara-wrapper .main-block .detail-block {
   width: 100%;
   margin-top: 20px;
@@ -198,11 +201,11 @@ html {
   padding: 10px;
   font-size: 1.4rem;
   line-height: 140%;
+  font-weight: lighter;
 }
 .all-wrapper.chara-wrapper .main-block .detail-block dl dt {
   background-color: #211816;
   color: #fff;
-  font-weight: lighter;
 }
 .all-wrapper.chara-wrapper .main-block .detail-block dl dt.corner-top {
   border-radius: 6px 6px 0 0;

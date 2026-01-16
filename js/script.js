@@ -25,7 +25,7 @@ $(function () {
       }
     });
 
-    
+
 
   }
 
@@ -42,10 +42,19 @@ $(function () {
     console.log("chara:", chara);
     console.log("data:", data);
 
+    console.log("data.image:", data.image);
+    console.log("data.image02:", data.image02);
+
+    console.log(chara_prof["アンジェリカ"]);
+
+
+
+
+
 
     $('.chara-image').html(`
-      <img class="c-img c-main" src="${data.image}"
-      <img class="c-img c-hover" src="${data.image_02}"`);
+      <img class="c-img c-main" src="${data.image}">
+      <img class="c-img c-hover" src="${data.image02}">`);
     $('.name').text(data.name);
     $('.major').text(data.major)
       .addClass(data.className);
@@ -53,7 +62,7 @@ $(function () {
     $('.want-a').text(data.want);
     $('.music-a').html(`
       <p>${data.music}</p>
-      <iframe src="${data.iframe}"title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      ${data.iframe}
       <p>${data.music_text}</p>`);
     $('.kd-a').text(data.kd);
     $('.free-a').text(data.free);
