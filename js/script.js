@@ -3,10 +3,10 @@
 
 $(function () {
 
-    $('.filter-btn[data-filter="all"]').addClass('btn-on');
+  $('.filter-btn[data-filter="all"]').addClass('btn-on');
 
-    
-    $('.filter-btn').on('click', function () {
+
+  $('.filter-btn').on('click', function () {
     const filter = $(this).data('filter');
 
     // active切り替え
@@ -20,6 +20,11 @@ $(function () {
       $('.chara-block li').hide();
       $('.chara-block li[data-category="' + filter + '"]').show();
     }
+  });
+
+  $('.rotate').on('click', function () {
+    $('.chara-image').toggleClass('rotate-on');
+    console.log('aaa');
   });
 
 
