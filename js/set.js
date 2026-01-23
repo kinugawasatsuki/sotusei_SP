@@ -127,8 +127,8 @@ const chara_prof = {
 
         name: "サカグチ",
         major: "Web",
-        image: "img/chara_utasiro.png",
-        image02: "img/chara_utasiro02.png",
+        image: "img/chara_sakaguchi.png",
+        image02: "img/chara_sakaguchi02.png",
         className: "web",
         food: "アボカド",
         want: "大きい収納",
@@ -178,8 +178,8 @@ const chara_prof = {
 
         name: "てら",
         major: "Web",
-        image: "img/chara_tein.png",
-        image02: "img/chara_tein02.png",
+        image: "img/chara_teramoto.png",
+        image02: "img/chara_teramoto02.png",
         className: "web",
         food: "アイスクリーム",
         want: "Switch2　ポケモンレジェンズZA",
@@ -195,8 +195,8 @@ const chara_prof = {
 
         name: "てっしー",
         major: "Web",
-        image: "img/chara_tein.png",
-        image02: "img/chara_tein02.png",
+        image: "img/chara_tesima.png",
+        image02: "img/chara_tesima02.png",
         className: "web",
         food: "からあげ",
         want: "ライブのチケット",
@@ -229,8 +229,8 @@ const chara_prof = {
 
         name: "どかち",
         major: "Web",
-        image: "img/chara_matumoto_e.png",
-        image02: "img/chara_matumoto_e02.png",
+        image: "img/chara_hujii.png",
+        image02: "img/chara_hujii02.png",
         className: "web",
         food: "うどん",
         want: "冬服！全く足りない！",
